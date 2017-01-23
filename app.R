@@ -80,3 +80,10 @@ shinyApp(ui = ui, server = server)
 
 # create and run test.R with call shinyApp() at the end, you could then run it from the console with:
 # print(source("test.R"))
+
+#-----------------------------------------------------------------------
+
+#### Deploy shinyApp() ####
+
+library(rsconnect)
+deployApp()
