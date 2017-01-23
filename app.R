@@ -85,5 +85,5 @@ shinyApp(ui = ui, server = server)
 
 #### Deploy shinyApp() ####
 
-library(rsconnect)
-deployApp()
+#library(rsconnect)
+#deployApp()
